@@ -26,3 +26,7 @@ body {
     padding: 0 0.5em 0 0.5em;
     text-decoration: none;
 }
+
+.active {
+    background-color: rgb(255, 231, 234);
+}
