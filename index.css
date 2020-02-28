@@ -27,6 +27,33 @@ body {
     text-decoration: none;
 }
 
-.active {
-    background-color: rgb(255, 231, 234);
+#menu ul li a.active {
+    color: rgb(214, 0, 89);
+}
+
+hr {
+    border: 0.5px solid rgb(37, 37, 37);
+    margin: 0 2em 0 2em;
+}
+
+.fa-instagram {
+    background: #c01154;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+@media only screen and (max-width: 360px) {
+    #menu ul li {
+        display: block;
+    }
 }
