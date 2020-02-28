@@ -6,7 +6,7 @@ body {
     display: grid;
     grid-template-columns: auto auto;
     align-items: center;
-    margin: 0 2em 0 2em;
+    margin: 0 2vw 0 2vw;
 }
 
 #menu {
@@ -18,12 +18,12 @@ body {
 }
 
 #menu ul li {
-    display: inline-block;
+    display: inline-flex;
 }
 
 #menu ul li a {
     color: black;
-    padding: 0 0.5em 0 0.5em;
+    padding: 0 0.5vw 0 0.5vw;
     text-decoration: none;
 }
 
@@ -33,27 +33,28 @@ body {
 
 hr {
     border: 0.5px solid rgb(37, 37, 37);
-    margin: 0 2em 0 2em;
+    margin: 0 2vw 0 2vw;
 }
 
-.fa-instagram {
-    background: #c01154;
-    color: white;
-    padding: 20px;
-    font-size: 30px;
-    width: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5vw 2vw 5vw 2vw;
 }
 
-.fa:hover {
-    opacity: 0.7;
+footer img {
+    width: 5vw;
+    max-width: 60px;
 }
 
-@media only screen and (max-width: 360px) {
+@media only screen and (max-width: 400px) {
     #menu ul li {
         display: block;
+        text-align: right;
+    }
+
+    footer img {
+        width: 10vw;
     }
 }
